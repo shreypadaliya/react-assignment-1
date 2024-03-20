@@ -4,6 +4,15 @@ import { Carousel } from "flowbite-react";
 import { GrFormPrevious } from "react-icons/gr";
 import { MdNavigateNext } from "react-icons/md";
 
+import test1 from "../assets/images/test1.jpg";
+import test2 from "../assets/images/test2.jpg";
+import test3 from "../assets/images/test3.jpg";
+import profi_1 from "../assets/images/profi-1.jpg";
+import profi_2 from "../assets/images/profi-2.jpg";
+import profi_3 from "../assets/images/profi-3.jpg";
+import image1 from "../assets/images/Star.png"
+import Footer from "../components/Footer";
+
 const Testimonial = () => {
   return (
     <>
@@ -31,7 +40,7 @@ const Testimonial = () => {
             }}
           >
             <img
-              src="/images/test1.jpg"
+              src={test1}
               style={{ height: "100%", width: "100%", borderRadius: 15 }}
             />
 
@@ -61,7 +70,7 @@ const Testimonial = () => {
                 }}
               >
                 <img
-                  src="/images/profi-1.jpg"
+                  src={profi_1}
                   style={{ height: "100%", width: "100%", borderRadius: 120 }}
                 />
               </div>
@@ -90,23 +99,23 @@ const Testimonial = () => {
                   }}
                 >
                   <img
-                    src="/images/Star.png"
+                    src= {image1}
                     style={{ height: 20, width: 20, marginRight: 5 }}
                   />
                   <img
-                    src="/images/Star.png"
+                    src= {image1}
                     style={{ height: 20, width: 20, marginRight: 5 }}
                   />
                   <img
-                    src="/images/Star.png"
+                    src= {image1}
                     style={{ height: 20, width: 20, marginRight: 5 }}
                   />
                   <img
-                    src="/images/Star.png"
+                    src= {image1}
                     style={{ height: 20, width: 20, marginRight: 5 }}
                   />
                   <img
-                    src="/images/Star.png"
+                    src= {image1}
                     style={{ height: 20, width: 20 }}
                   />
                 </div>
@@ -126,7 +135,7 @@ const Testimonial = () => {
             }}
           >
             <img
-              src="/images/test2.jpg"
+              src={test2}
               style={{ height: "100%", width: "100%", borderRadius: 15 }}
             />
 
@@ -156,7 +165,7 @@ const Testimonial = () => {
                 }}
               >
                 <img
-                  src="/images/profi-2.jpg"
+                  src={profi_2}
                   style={{ height: "100%", width: "100%", borderRadius: 120 }}
                 />
               </div>
@@ -185,23 +194,23 @@ const Testimonial = () => {
                   }}
                 >
                   <img
-                    src="/images/Star.png"
+                    src= {image1}
                     style={{ height: 20, width: 20, marginRight: 5 }}
                   />
                   <img
-                    src="/images/Star.png"
+                    src= {image1}
                     style={{ height: 20, width: 20, marginRight: 5 }}
                   />
                   <img
-                    src="/images/Star.png"
+                    src= {image1}
                     style={{ height: 20, width: 20, marginRight: 5 }}
                   />
                   <img
-                    src="/images/Star.png"
+                    src= {image1}
                     style={{ height: 20, width: 20, marginRight: 5 }}
                   />
                   <img
-                    src="/images/Star.png"
+                    src=  {image1}
                     style={{ height: 20, width: 20 }}
                   />
                 </div>
@@ -221,7 +230,7 @@ const Testimonial = () => {
             }}
           >
             <img
-              src="/images/test3.jpg"
+              src={test3}
               style={{ height: "100%", width: "100%", borderRadius: 15 }}
             />
 
@@ -251,7 +260,7 @@ const Testimonial = () => {
                 }}
               >
                 <img
-                  src="/images/profi-3.jpg"
+                  src={profi_3}
                   style={{ height: "100%", width: "100%", borderRadius: 120 }}
                 />
               </div>
@@ -280,23 +289,23 @@ const Testimonial = () => {
                   }}
                 >
                   <img
-                    src="/images/Star.png"
+                    src= {image1}
                     style={{ height: 20, width: 20, marginRight: 5 }}
                   />
                   <img
-                    src="/images/Star.png"
+                    src= {image1}
                     style={{ height: 20, width: 20, marginRight: 5 }}
                   />
                   <img
-                    src="/images/Star.png"
+                    src= {image1}
                     style={{ height: 20, width: 20, marginRight: 5 }}
                   />
                   <img
-                    src="/images/Star.png"
+                    src= {image1}
                     style={{ height: 20, width: 20, marginRight: 5 }}
                   />
                   <img
-                    src="/images/Star.png"
+                    src= {image1}
                     style={{ height: 20, width: 20 }}
                   />
                 </div>
@@ -324,6 +333,7 @@ const Testimonial = () => {
             <img src={require("../images/Te3.png")} alt="IMAGE3" />
           </div>
         </Carousel> */}
+        <Footer/>
       </div>
     </>
   );

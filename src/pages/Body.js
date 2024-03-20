@@ -1,8 +1,9 @@
 import React from "react";
-import Meterial from "./Meterial";
+
 import Whychose from "./Whychose";
 import Proslider from "./Proslider";
 import Exp from "./Exp";
+import Meterial from "./Meterial";
 
 
 const Body = () => {
@@ -12,7 +13,7 @@ const Body = () => {
       <Whychose/>
       <Proslider/>
       <Exp/>
-      <Meterial/>
+      <Meterial></Meterial>
       
 
     </>

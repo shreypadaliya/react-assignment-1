@@ -1,19 +1,20 @@
-import './App.css';
-import Body from './components/Body';
-import Footer from './components/Footer';
-import Home from './components/Home';
-import Navbar from './components/Navbar';
-import Testimonial from './components/Testimonial';
-
+import "./App.css";
+import Home from "./pages/Home";
+import Exp from "./pages/Exp";
+import Meterial from "./pages/Meterial";
+import Proslider from "./pages/Proslider";
+import Testimonial from "./pages/Testimonial";
+import Whychose from "./pages/Whychose";
 
 function App() {
   return (
     <>
-      <Navbar/>
-      <Home/>
-      <Body/>
-      <Testimonial/>
-      <Footer/>
+      <Home />
+      <Whychose />
+      <Proslider />
+      <Exp />
+      <Meterial />
+      <Testimonial />
     </>
   );
 }

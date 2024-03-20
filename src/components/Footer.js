@@ -49,7 +49,7 @@ const Footer = () => {
             </div>
           </div>
           <div className="copyright" id="copyright">
-            <div className="copy-text">Komron-Mirzo | &copy; Copyright 2022</div>
+            <div className="copy-text"> &copy; Copyright 2024</div>
             <div className="terms-text">
               Terms & Conditions &emsp; &emsp; &emsp; Policy Privacy
             </div>

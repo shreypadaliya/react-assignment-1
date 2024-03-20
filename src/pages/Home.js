@@ -1,11 +1,11 @@
 import React from 'react'
 import { FaSearch } from "react-icons/fa";
-
-
+import Navbar from '../components/Navbar';
 
 const Home = () => {
   return (
    <>
+   <Navbar></Navbar>
     <home class="home" id="home">
       <section className="title" id="title">
         Make your interior more minimalistic & modern
